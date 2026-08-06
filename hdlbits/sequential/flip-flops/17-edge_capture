@@ -1,0 +1,22 @@
+module top_module (
+    input clk,
+    input reset,
+    input [31:0] in,
+    output reg [31:0] out
+);
+
+    reg [31:0] in_d;
+
+    always @(posedge clk) begin
+        // Store previous value of 'in' to track changes
+        in_d <= in;
+
+        if (reset) begin
+            out <= 32'b0;
+        end else begin
+            // Set the bit if a 1->0 transition occurred, otherwise keep its current value
+            out <= out | (in_d & ~in);
+        end
+    end
+
+endmodule
