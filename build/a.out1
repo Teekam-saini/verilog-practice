@@ -1,0 +1,16 @@
+**** module/scope: top_module
+     Flip-Flops   : 2
+     Logic Gates  : 24
+     EQUALITY[2]: 1 units
+     MUX[2]: 10 slices
+     LPM[5]: 1 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 2
+     Logic Gates  : 24
+     EQUALITY[2]: 1 units
+     MUX[2]: 10 slices
+     LPM[5]: 1 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
