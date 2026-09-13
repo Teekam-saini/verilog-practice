@@ -1,12 +1,20 @@
 **** module/scope: top_module
-     Flip-Flops   : 1
-     Logic Gates  : 8
-     MUX[2]: 3 slices
+     Flip-Flops   : 10
+     Logic Gates  : 183
+     ADDER[7]: 1 units
+     EQUALITY[3]: 8 units
+     MAGNITUDE[7]: 2 units
+     MUX[2]: 43 slices
+     LPM[5]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
 **** TOTALS
-     Flip-Flops   : 1
-     Logic Gates  : 8
-     MUX[2]: 3 slices
+     Flip-Flops   : 10
+     Logic Gates  : 183
+     ADDER[7]: 1 units
+     EQUALITY[3]: 8 units
+     MAGNITUDE[7]: 2 units
+     MUX[2]: 43 slices
+     LPM[5]: 1 unaccounted
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
