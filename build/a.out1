@@ -1,16 +1,12 @@
-**** module/scope: top_module
-     Flip-Flops   : 4
-     Logic Gates  : 41
-     EQUALITY[4]: 1 units
-     MUX[2]: 16 slices
-     LPM[5]: 1 unaccounted
+**** module/scope: siso
+     Flip-Flops   : 8
+     Logic Gates  : 18
+     MUX[2]: 9 slices
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
 **** TOTALS
-     Flip-Flops   : 4
-     Logic Gates  : 41
-     EQUALITY[4]: 1 units
-     MUX[2]: 16 slices
-     LPM[5]: 1 unaccounted
+     Flip-Flops   : 8
+     Logic Gates  : 18
+     MUX[2]: 9 slices
      LOG[13]: 1 unaccounted
      LOG[14]: 1 unaccounted
