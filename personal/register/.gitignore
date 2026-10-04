@@ -1,5 +1,5 @@
 *.fst
 *.vcd
-./sim/*
-~/verilog-practice/build/
-./synth/*.dot
+sim/*
+verilog-practice/build/
+synth/*.dot
