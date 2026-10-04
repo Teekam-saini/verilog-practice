@@ -1,0 +1,8 @@
+read_verilog rtl/universal_register.v
+hierarchy -check -top universal_register
+proc
+opt
+techmap
+opt
+stat >> synth/universal_register_stats.txt
+show -format png -prefix synth/universal_register
