@@ -1,5 +1,3 @@
-*.fst
-*.vcd
-sim/*
+sim/
 verilog-practice/build/
 synth/*.dot
