@@ -1,0 +1,10 @@
+read_verilog -sv rtl/register_file.v
+hierarchy -check -top register_file
+proc
+opt
+techmap
+opt
+write_json synth/register_file_net.json
+write_verilog synth/register_file_net.v
+show -format png -prefix synth/register_file
+tee -o synth/register_file_stat.txt stat
